@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>DOReMI SOlfa Móveis - Cadastro</title>
+<base target="_blank">
+<link rel="stylesheet" type="text/css" href="DoremisolfaMoveis.css">
+<link href="https://fonts.googleapis.com/css?family=Karla|Stoke" rel="stylesheet">
+<script src="cadastro.js"></script>
+</head>
+<body>
+    <header>
+    <address class="ender">
+    Tv. La Donna e Mobile, 134<br>
+    Tel: (21) 91224-4881<br>
+    <a href="mailto:contato@doremisolfa.com.br">contato@doremisolfa.com.br</a>
+    </address>
+    <img class="imgLogo" src="Imagens/DoremisolfaLogoTopo.png" alt="Logo da Doremisolfa Móveis"><br>
+    </header>
+<nav>
+<ul>
+    <li><a href="DoremisolfaMoveis.html">Apresentação</a></li>
+    <li><a href="Doremi.html">Camas</a></li>
+    <li><a href="Solfa.html">Sofás</a></li>
+    <li><a href="Encomendas.html">Encomendas</a></li>
+</ul>
+</nav>
+
+<section>
+<h3 class="Titulo">Cadastro</h3>
+        <div class="FormBox">
+        <br>
+        <form method="POST" onsubmit="return criticaForm();">
+        <fieldset class="FSLinInteira">
+        <legend>Identificação</legend>
+        <div class="LinhaForm">
+        <label for="idEmailGnd" class="LabBox">E-mail:</label>
+        <input id="idEmailGnd" class="InpBoxGnd" type="email" name="TxtEmail" required>
+        </div>
+    <div class="LinhaForm">
+    <span class="ColEsq">
+    <label for="idSenha" class="LabBox">Senha:</label>
+    <input id="idSenha" class="InpBoxMed" type="password" name="TxtSenha" required onchange="verificaSenha();">
+    </span><span class="ColDir">
+    <label for="idConf" class="LabBox">Confirme:</label>
+    <input id="idConf" class="InpBoxMed" type="password" name="TxtConf" required onchange="verificaSenha();">
+    </span>
+    </div>
+</fieldset>
+
+<fieldset class="FSLinInteira">
+<legend>Dados Pessoais</legend>
+<div class="LinhaForm">
+<label for="idNome" class="LabBox">Nome:</label>
+<input id="idNome" class="InpBoxGnd" type="text" name="TxtNome" required>
+</div>
+<div class="LinhaForm" id="linhaEnder">
+<label for="inpEnder" class="LabBox">Endereço:</label>
+<textarea name="TxtEnder" class="InpBoxGnd" id="inpEnder"></textarea>
+</div>
+
+    <div class="LinhaForm">
+    <span class="ColEsq">
+    <label for="idTel" class="LabBox">Telefone:</label>
+    <input type="text" id="idTel" class="InpBoxMed" name="TxtTelefone">
+    </span>
+    <span class="ColDir">
+    <label for="idCel" class="LabBox">Celular:</label>
+    <input type="text" id="idCel" class="InpBoxMed" name="TxtCelular">
+    </span>
+    </div>
+
+<fieldset class="FSColEsq"><legend>Nascimento:</legend>
+<input type="number" name="TxtDiaNasc" min="1" max="31" class="numDD"> /
+<input type="number" name="TxtMesNasc" min="1" max="12" class="numDD"> /
+<input type="number" name="TxtAnoNasc" min="1930" max="2008" class="numQD">
+</fieldset>
+
+    <fieldset class="FSColDir"><legend>Sexo:</legend>
+    <label><input type="radio" name="TglSexo" value="M">Mas</label>
+    <label><input type="radio" name="TglSexo" value="F">Fem</label>
+    <label><input type="radio" name="TglSexo" value="O" checked>Outro</label>
+    </fieldset>
+</fieldset>
+    <div class="botoes">
+    <input type="submit" value="Cadastrar">
+    <input type="reset" value="Limpar">
+    </div>
+</form>
+</div>
+</section>
+</body>
+</html>
