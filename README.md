@@ -25,7 +25,7 @@ Este README documenta **tudo o que foi feito no projeto** e, principalmente, **c
 ---
 
 ## 🧱 Parte 1 — AD1: a base do site (HTML5 + CSS3)
-
+ 🔗 Site-DOReMI-SOlF-M-veis `<https://github.com/RayaT266/Site-DOReMI-SOlF-M-veis/tree/main>`
 ### 1. Layout com tabela de bordas invisíveis
 `Questao1_TabelaInvisivel.html` reproduz a técnica antiga de posicionar elementos com `<table>`, `<font>` e atributos como `bgcolor`. Serviu de comparação com a abordagem moderna.
 
@@ -236,8 +236,8 @@ Abra **`DoremisolfaMoveis.html`** no navegador e navegue pelo menu.
 
 ## 👩‍💻 Autora
 
-**Raya** — Estudante de Tecnologia em Sistemas de Computação (UFF/CEDERJ)
-🔗 LinkedIn: `<link do seu perfil>`
+**Rayara** — Estudante de Tecnologia em Sistemas de Computação (UFF/CEDERJ)
+🔗 LinkedIn: `<www.linkedin.com/in/rayaraescala-r-torres>`
 
 ---
 
