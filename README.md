@@ -236,7 +236,7 @@ Abra **`DoremisolfaMoveis.html`** no navegador e navegue pelo menu.
 
 ## 👩‍💻 Autora
 
-**Rayara** — Estudante de Tecnologia em Sistemas de Computação (UFF/CEDERJ)
+**Rayara Escala** — Estudante de Tecnologia em Sistemas de Computação (UFF/CEDERJ)
 🔗 [LinkedIn](www.linkedin.com/in/rayaraescala-r-torres)
 
 ---
