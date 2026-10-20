@@ -257,3 +257,8 @@ Abra **`DoremisolfaMoveis.html`** no navegador e navegue pelo menu.
 ---
 
 > Projeto educacional. A loja, os produtos e os preços são fictícios.
+
+---
+📫 Vamos conversar? Me encontre no [LinkedIn](https://www.linkedin.com/in/rayaraescala-r-torres).
+
+---
